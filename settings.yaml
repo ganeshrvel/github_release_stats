@@ -1,5 +1,5 @@
 settings:
   sources:
-    - repo:
+    - repo: # only one repo fetch is supported at this moment
         username: ganeshrvel
         name: openmtp

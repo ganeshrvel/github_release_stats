@@ -4,7 +4,7 @@ use crate::common::models::settings;
 
 
 pub fn repo_source() -> Result<settings::SettingsRepo, Box<dyn Error>> {
-    let f = File::open("./src/settings.yaml")?;
+    let f = File::open("settings.yaml")?;
 
     println!("Reading the YAML file:...");
 
