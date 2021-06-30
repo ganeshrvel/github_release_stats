@@ -1,0 +1,5 @@
+settings:
+  sources:
+    - repo:
+        username: ganeshrvel
+        name: openmtp
